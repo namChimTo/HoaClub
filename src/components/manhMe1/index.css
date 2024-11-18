@@ -1,0 +1,1010 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.manhMe1__main-container {
+  overflow: hidden;
+}
+
+.manhMe1__main-container,
+.manhMe1__main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.manhMe1__main-container {
+  position: relative;
+  width: 1440px;
+  height: 1973px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.manhMe1__rectangle {
+  position: relative;
+  width: 1440px;
+  height: 91px;
+  margin: 0 0 0 0;
+  background: #010000;
+  z-index: 4;
+  overflow: visible auto;
+}
+.manhMe1__image {
+  position: relative;
+  width: 168px;
+  height: 79px;
+  margin: 12px 0 0 671px;
+  background: url(../assets/images/131b9752d7a1eaaa7bb93198f63383b6b36aa5f9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.manhMe1__flex-row-fd {
+  position: relative;
+  width: 1413px;
+  height: 51px;
+  margin: 3px 0 0 11px;
+  z-index: 22;
+}
+.manhMe1__image-1 {
+  position: absolute;
+  width: 50px;
+  height: 47px;
+  top: 0;
+  left: 59px;
+  background: url(../assets/images/71148d2bbf66b64d5e0ad1bfc1b2523af6f90ce6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+}
+.manhMe1__frame {
+  position: absolute;
+  width: 51px;
+  height: 49px;
+  top: 2px;
+  left: 0;
+  overflow: hidden;
+}
+.manhMe1__vector {
+  position: relative;
+  width: 41.25px;
+  height: 3px;
+  margin: 10.75px 0 0 4.875px;
+  background: url(../assets/images/7ae481c6-afa0-48f1-bc3d-6cc7ec4c50ce.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.manhMe1__vector-2 {
+  position: relative;
+  width: 41.25px;
+  height: 3px;
+  margin: 9.25px 0 0 4.875px;
+  background: url(../assets/images/c61e3692-5445-48fd-8279-1bb9858c2e11.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.manhMe1__vector-3 {
+  position: relative;
+  width: 41.25px;
+  height: 3px;
+  margin: 9.25px 0 0 4.875px;
+  background: url(../assets/images/2ab9e875-2d3a-476b-8312-44966a811d4f.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+.manhMe1__vector-4 {
+  position: absolute;
+  width: 1.68%;
+  height: 42.13%;
+  top: 7.62%;
+  left: 86.84%;
+  background: url(../assets/images/f2d8d63a-0c34-4b08-822c-fbdd059f9950.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+}
+.manhMe1__shopping-cart {
+  position: absolute;
+  width: 33px;
+  height: 32px;
+  top: 10px;
+  left: 1174px;
+  z-index: 6;
+  overflow: hidden;
+}
+.manhMe1__vector-5 {
+  position: relative;
+  width: 33px;
+  height: 22.834px;
+  margin: 0 0 0 0;
+  background: url(../assets/images/8fffe3bb-8e91-40a4-ba9e-25c394dcf49f.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 9;
+}
+.manhMe1__flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 17.875px;
+  height: 2.667px;
+  margin: 3.833px 0 0 11px;
+  z-index: 8;
+}
+.manhMe1__vector-6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 5.75px;
+  height: 5.667px;
+  background: url(../assets/images/ab6102bb-cacf-4c4b-a0dd-69fad647cb60.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 7;
+}
+.manhMe1__vector-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 5.75px;
+  height: 5.667px;
+  background: url(../assets/images/eb17d412-4fad-4aa4-9efa-decccd5403ba.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+}
+.manhMe1__rectangle-8 {
+  position: absolute;
+  width: 143px;
+  height: 30.965px;
+  top: 10.88px;
+  left: 1270px;
+  background: url(../assets/images/94b9f040-d2d3-461e-bcbf-030d350b4da6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+  border-radius: 11px;
+}
+.manhMe1__log-in-register {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22.974px;
+  top: 4.994px;
+  left: 20.02px;
+  color: #ffffff;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.974px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.manhMe1__san-pham-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25.97px;
+  top: 15.875px;
+  left: 457px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+
+.manhMe1__dip {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25.97px;
+  top: 15.875px;
+  left: 625px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.manhMe1__workshop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25.97px;
+  top: 15.875px;
+  left: 705px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.manhMe1__ve-chung-toi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25.97px;
+  top: 15.875px;
+  left: 857px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.manhMe1__vector-a {
+  position: absolute;
+  width: 2.62%;
+  height: 28.46%;
+  top: 55.85%;
+  left: 86.38%;
+  background: url(../assets/images/f52eb39c-30b4-4989-bee3-501a212b9b03.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 11;
+}
+.manhMe1__san-pham-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 278px;
+  height: 77px;
+  margin: 38px 0 0 577px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 41;
+}
+.manhMe1__flex-row-b {
+  position: relative;
+  width: 707px;
+  height: 58.616px;
+  margin: 18px 0 0 366px;
+  z-index: 45;
+}
+.manhMe1__tinh-cach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 154px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  z-index: 44;
+}
+.manhMe1__rectangle-c {
+  position: absolute;
+  width: 345px;
+  height: 56.935px;
+  top: 1.681px;
+  left: 50%;
+  background: #d9d9d9;
+  transform: translate(-102.46%, 0);
+  z-index: 42;
+}
+.manhMe1__vector-d {
+  position: relative;
+  width: 23.5px;
+  height: 12.488px;
+  margin: 24.721px 0 0 306.75px;
+  background: url(../assets/images/5aa609e2-0fd6-42fa-9050-15fbbe94861a.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 46;
+}
+.manhMe1__rectangle-e {
+  position: absolute;
+  width: 345px;
+  height: 55.936px;
+  top: 1.681px;
+  left: 50%;
+  background: #d9d9d9;
+  transform: translate(2.46%, 0);
+  z-index: 43;
+}
+.manhMe1__vector-f {
+  position: relative;
+  width: 23.5px;
+  height: 12.488px;
+  margin: 21.974px 0 0 309px;
+  background: url(../assets/images/8ac45aa3-4020-4cec-958b-feb40013e5a2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 47;
+}
+.manhMe1__gia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 101px;
+  height: 47.945px;
+  top: 5.677px;
+  left: 352px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  z-index: 45;
+}
+.manhMe1__flex-row-dbf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 972px;
+  height: 390px;
+  margin: 26.384px 0 0 239px;
+  z-index: 50;
+}
+.manhMe1__instagram-highlights-stories {
+  flex-shrink: 0;
+  position: relative;
+  width: 427px;
+  height: 390px;
+  background: url(../assets/images/9b14fd939d10de8c2ad531c01b9db1dc03a928ea.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 48;
+}
+.manhMe1__instagram-highlights-stories-10 {
+  flex-shrink: 0;
+  position: relative;
+  width: 423px;
+  height: 390px;
+  background: url(../assets/images/891814ee96836a2990d4e456b13fab60b31f5e2b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 50;
+}
+.manhMe1__flex-row-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 684px;
+  height: 30px;
+  margin: 20px 0 0 389px;
+  z-index: 51;
+}
+.manhMe1__strong {
+  flex-shrink: 0;
+  position: relative;
+  width: 129px;
+  height: 30px;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 49;
+}
+.manhMe1__strong-11 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__strong-12 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__strong-13 {
+  flex-shrink: 0;
+  position: relative;
+  width: 130px;
+  height: 30px;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 51;
+}
+.manhMe1__strong-14 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__strong-15 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__flex-row-cae {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 684px;
+  height: 30px;
+  margin: 9px 0 0 389px;
+  z-index: 55;
+}
+.manhMe1__price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 52;
+}
+.manhMe1__price-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 55;
+}
+.manhMe1__flex-row-ce {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 977px;
+  height: 430px;
+  margin: 14px 0 0 234px;
+  z-index: 57;
+}
+.manhMe1__instagram-highlights-stories-17 {
+  flex-shrink: 0;
+  position: relative;
+  width: 432px;
+  height: 430px;
+  background: url(../assets/images/62f1135dc2c232b68c22f035f20cac170ab7b4ba.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 56;
+}
+.manhMe1__instagram-highlights-stories-18 {
+  flex-shrink: 0;
+  position: relative;
+  width: 423px;
+  height: 430px;
+  background: url(../assets/images/2e591cde71ba55246f2ac7c281e1604c704c4709.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 57;
+}
+.manhMe1__flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 688px;
+  height: 31px;
+  margin: 19px 0 0 386px;
+  z-index: 61;
+}
+.manhMe1__text-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 130px;
+  height: 30px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 61;
+}
+.manhMe1__section-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 132px;
+  height: 30px;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 58;
+}
+.manhMe1__text-10 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__text-11 {
+  position: relative;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.manhMe1__group-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 683px;
+  height: 30px;
+  margin: 9px 0 0 386px;
+  z-index: 63;
+}
+.manhMe1__text-12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 63;
+}
+.manhMe1__text-13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 62;
+}
+.manhMe1__box-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 983px;
+  height: 329px;
+  margin: 14px 0 0 228px;
+  z-index: 65;
+}
+.manhMe1__img-a {
+  flex-shrink: 0;
+  position: relative;
+  width: 438px;
+  height: 329px;
+  background: url(../assets/images/c64338a032a204fdc933461017d414c2dbe44b78.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 64;
+}
+.manhMe1__pic-9 {
+  flex-shrink: 0;
+  position: relative;
+  width: 425px;
+  height: 329px;
+  background: url(../assets/images/ea8dcb5534d7c2f77d80acec722687663f41e184.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 65;
+}
+.manhMe1__wrapper-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 688px;
+  height: 30px;
+  margin: 20px 0 0 389px;
+  z-index: 60;
+}
+.manhMe1__text-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 131px;
+  height: 30px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 60;
+}
+.manhMe1__text-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 130px;
+  height: 30px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 59;
+}
+.manhMe1__wrapper-8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 682px;
+  height: 25px;
+  margin: 10px 0 0 393px;
+  z-index: 54;
+}
+.manhMe1__text-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 54;
+}
+.manhMe1__text-17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 127px;
+  height: 25px;
+  color: #000000;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 53;
+}
+.manhMe1__box-8 {
+  position: relative;
+  width: 1087px;
+  height: 30px;
+  margin: 47px 0 0 273px;
+  z-index: 31;
+}
+.manhMe1__ve-chung-toi-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.manhMe1__dia-chi-cua-hang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 281px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.manhMe1__mang-xa-hoi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 579px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.manhMe1__lien-he {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 833px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 31;
+}
+.manhMe1__flex-row-da {
+  position: relative;
+  width: 1122px;
+  height: 49.293px;
+  margin: -6.293px 0 0 273px;
+  z-index: 39;
+}
+.manhMe1__facebook {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 484.768px;
+  z-index: 37;
+  overflow: hidden;
+}
+.manhMe1__instagram {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10.293px;
+  left: 613px;
+  background: url(../assets/images/c8e63b4d-9b4d-4ce4-a443-410ea2c8d92f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+  overflow: hidden;
+}
+.manhMe1__hoa-club {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 13.293px;
+  left: 646px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 33;
+}
+.manhMe1__cau-chuyen-thuong-hieu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 17.293px;
+  left: 0;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+}
+.manhMe1__so-nguyen-hy-quang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 18.293px;
+  left: 281px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.manhMe1__email-hoaclub-tiepthi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 289px;
+  height: 30px;
+  top: 19.293px;
+  left: 833px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.manhMe1__flex-row-d {
+  position: relative;
+  width: 734px;
+  height: 31px;
+  margin: -9px 0 0 273px;
+  z-index: 36;
+}
+.manhMe1__vector-1a {
+  position: absolute;
+  width: 1.77%;
+  height: 67.18%;
+  top: -3.23%;
+  left: 84.47%;
+  background: url(../assets/images/bc0f2e6c-25b6-4fb6-9bba-10cb7a3fbf2c.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 36;
+}
+.manhMe1__huong-dan-mua-hang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 1px;
+  left: 0;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+.manhMe1__hoa-club-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 2px;
+  left: 646px;
+  color: #ffffff;
+  font-family: Lexend, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 35;
+}
+.manhMe1__footer {
+  position: absolute;
+  width: 1440px;
+  height: 151px;
+  top: 1822px;
+  left: 0;
+  background: url(../assets/images/4878e6ad-b1e5-43f9-823c-6c2967ff6389.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
